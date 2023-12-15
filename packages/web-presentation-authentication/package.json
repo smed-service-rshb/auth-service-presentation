@@ -1,0 +1,12 @@
+{
+  "name": "@efr/medservice-web-presentation-authentication",
+  "version": "1.0.0-smed",
+  "description": "Презентационный слой \"СОЮЗМЕДСЕРВИСА\". Mодуль аутентифкации и авторизации.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "run-liter"
+  },
+  "publishConfig": {
+    "@efr:registry": "http://coral:18088/repository/efr-presentation-services/"
+  }
+}

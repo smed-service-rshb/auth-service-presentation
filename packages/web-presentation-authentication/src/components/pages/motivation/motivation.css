@@ -1,0 +1,113 @@
+.popup-container .motivation {
+    width: 80vw;
+    max-width: 1024px;
+}
+.popup-container .motivation .panel-wrapper {
+    min-width: inherit;
+    width: 100%;
+}
+.popup-container .motivation .panel-label-secondary {
+    padding: 0;
+}
+.popup-container .motivation .popup-window-header > * {
+    font-size: 18px;
+    font-weight: 700;
+}
+.popup-container .motivation .popup-content-message-container {
+    margin-top: 0;
+    padding: 0;
+}
+.motivation .panel-wrapper {
+    margin-bottom: 0;
+}
+.motivation .popup-content-message-container {
+    margin-bottom: 0;
+}
+.motivation .form-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.motivation .popup-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.motivation .panel-content .field-title {
+    width: 200px;
+}
+
+.motivation .panel-content .field-title:after {
+    border: none;
+}
+.motivation .panel-content .toggle-label {
+    margin-left: 10px;
+    vertical-align: top;
+}
+.motivation .panel-content .field-title {
+    vertical-align: middle;
+}
+.motivation .panel-content .comment-title {
+    padding-left: 8px;
+    font-weight: 700;
+    color: rgb(153, 8, 0);
+}
+.motivation .panel-content [data-id=field-incorrect-info-comment] {
+    min-height: 40px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    color: rgb(199, 10, 0);
+}
+.motivation .panel-content [data-id=field-incorrect-info-comment]:not([disabled]) {
+    background-color: #fff;
+}
+.motivation .panel-content .button-secondary {
+    border-radius: 20px;
+    border: 1px solid #039035;
+    padding: 7px 30px;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 500;
+}
+.motivation .panel-content .upload-button {
+    border-radius: 20px;
+    border: 1px solid #039035;
+    padding: 7px 49px;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.motivation .panel-content .upload-empty {
+    background: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+.motivation .panel-content .line-divider {
+    height: 1px;
+    background-color: rgba(3, 144, 53, 0.3);
+    width: 100%;
+}
+.motivation .panel-content [data-id=button-load-document] {
+    border: none;
+    color: black;
+    padding: 0 0 10px;
+}
+.motivation .panel-content [data-id=button-load-document]:hover {
+    opacity: .5;
+}
+.motivation .field-value {
+    width: 90%;
+}
+.motivation .field-edit-errors {
+    margin: 20px;
+    color: rgb(199, 10, 0);
+}
+.motivation [data-id=field-is-info-correct] {
+    max-width: 50%;
+}
+.motivation .datepicker-overlay {
+    bottom: 35px;
+}

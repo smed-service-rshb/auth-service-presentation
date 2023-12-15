@@ -1,0 +1,22 @@
+{
+  "name": "medservice-web-presentation-authentication",
+  "description": "Презентационный слой \"СОЮЗМЕДСЕРВИСА\". Mодуль аутентифкации и авторизации.",
+  "private": true,
+  "devDependencies": {
+    "lerna": "2.2.0"
+  },
+  "scripts": {
+    "clean": "lerna clean --yes && rimraf node_modules || exit 0",
+    "postinstall": "lerna bootstrap --concurrency=1 --hoist",
+    "start-mock": "cd packages/web-presentation-authentication-dev && npm run start-mock",
+    "start-app": "cd packages/web-presentation-authentication-dev && npm run start-app",
+    "build": "cd packages/web-presentation-authentication-dev && npm run build-app",
+    "test": "run-tests",
+    "lint": "lerna exec -- npm run lint",
+    "docker-push": "cd packages/web-presentation-authentication-dev && npm run docker-push",
+    "publish": "lerna publish --force-publish=*"
+  },
+  "publishConfig": {
+    "@efr:registry": "http://coral:18088/repository/efr-presentation-services/"
+  }
+}

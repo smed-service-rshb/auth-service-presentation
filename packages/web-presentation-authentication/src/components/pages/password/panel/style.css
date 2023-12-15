@@ -1,0 +1,91 @@
+.checkbox-container {
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    min-width: 16px;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox-style {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.checkbox-container:hover input ~ .checkbox-style {
+    background-color: #ccc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox-style:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkbox-style:after {
+    display: block;
+}
+
+.checkbox:not(checked):disabled + .checkbox-style:before {
+    background: #c1bdbd7a;
+    width: 20px;
+    height: 21px;
+}
+
+.checkbox:not(checked) + .checkbox-style:before {
+    background: none;
+}
+.checkbox:checked:focus + .checkbox-style:before {
+    background: none;
+}
+
+.checkbox:checked + .checkbox-style:before {
+    background: none;
+    opacity: 1;
+}
+
+.checkbox:not(checked):focus + .checkbox-style:before {
+    background: none;
+    opacity: 0.5;
+}
+
+.checkbox-for-dict .checkbox-container .checkbox-style:after {
+    cursor: pointer !important;
+    position: absolute;
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #38c136;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: unset;
+    background: none;
+}
+.checkbox-for-dict .checkbox + .checkbox-style {
+    cursor: pointer;
+    display: inline-block;
+    height: 21px;
+    border-radius: 10%;
+    border: 1px solid #81b874;
+    vertical-align: top;
+    width: 20px;
+}
+
+.center{
+    text-align: center;
+}

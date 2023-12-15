@@ -1,0 +1,80 @@
+.employees-list {
+    clear: both;
+}
+
+.popup-content-message-container {
+    overflow: unset;
+}
+
+.search-form .field-title {
+    width: 120px;
+}
+
+.search-form {
+    background: #f6f6f6;
+    width: 900px;
+    padding-top: 15px;
+    margin-top: 100px;
+    padding-bottom: 15px
+}
+
+.search-form .field {
+    width: 50%;
+    float: left;
+}
+
+.triangle-top {
+    display: inline-block;
+    border: 4px solid transparent;
+    border-top: 8px solid green;
+    margin-left: -45px;
+    margin-bottom: -4px;
+}
+
+.triangle-bottom {
+    display: inline-block;
+    border: 4px solid transparent;
+    border-bottom: 8px solid green;
+    margin-left: -45px;
+}
+
+.triangle-shift {
+    margin-left: -37px;
+}
+
+.filter .buttons {
+    padding-right: 30px;
+}
+
+.filter-margin {
+    margin-top: 10px !important;
+    margin-left: -10px !important;
+}
+
+.search-form .form-buttons {
+    margin-left: -390px;
+}
+
+.field-table .popup-window-header-close {
+    width: 14px;
+    height: 11px;
+    position: inherit;
+    margin-left: -41px;
+}
+
+.search-form .field-table {
+    width: 480px;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.employees-list-button .buttons {
+    padding: 10px 16px;
+    margin: 0 3px;
+}

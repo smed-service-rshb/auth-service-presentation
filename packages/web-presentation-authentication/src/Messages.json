@@ -1,0 +1,84 @@
+{
+  "PasswordPanel": {
+    "fields": {
+      "checkEnabled": "Проверка стойкости пароля",
+      "minLength": "Минимальная длина пароля для пользователя",
+      "maxLength": "Максимальная длина пароля для пользователя",
+      "numberOfDifferentCharacters": "Количество различных символов в пароле",
+      "specialCharsets": "Разрешенные специальные символы"
+    },
+    "panel": "Настройка пароля пользователя",
+    "groupSymbols": "Группа символов",
+    "allowed": "Разрешенные",
+    "required": "Обязательные",
+    "categoryData": {
+      "figures": "Цифры",
+      "lowercaseLatin": "Строчные латинские буквы",
+      "uppercaseLatin": "Заглавные латинские буквы",
+      "specCharacters": "Специальные символы"
+    },
+    "buttons": {
+      "save": "Сохранить",
+      "edit": "Изменить"
+    },
+    "errors": {
+      "minLengthRequired": "Поле \"Минимальная длина пароля\" обязательно для заполнения",
+      "maxLengthRequired": "Поле \"Максимальная длина пароля\" обязательно для заполнения",
+      "numberOfDifferentCharactersRequired": "Поле \"Количество различных символов\" обязательно для заполнения",
+      "specialCharsetsRequired": "Поле \"Разрешенные специальные символы\" обязательно для заполнения"
+    }
+  },
+  "Motivation": {
+    "fields": {
+      "bankBic": "bankBic",
+      "bankName": "bankName",
+      "inn": "inn",
+      "hasInn": "hasInn",
+      "index": "index",
+      "bankAddress": "bankAddress",
+      "printConsent": "printConsent",
+      "uploadConsent": "uploadConsent",
+      "uploadPassport": "uploadPassport",
+      "Comment": "Comment",
+      "loadDocument": "loadDocument",
+      "loadPassport": "loadPassport",
+      "consentStartActiveDate": "consentStartActiveDate"
+    },
+    "fieldsName": {
+      "accountField": "Номер зарплатного счета сотрудника",
+      "accountNumber": "Номер счета банка",
+      "bikCode": "БИК Банка",
+      "bankName": "Наименование филиала Банка",
+      "bankAddress": "Адрес регистрации",
+      "index": "Индекс",
+      "inn": "ИНН сотрудника",
+      "registrationAddress": "Адрес регистрации",
+      "startDate": "Дата начала действия согласия",
+      "uploadConsent": "Приложить копию документов",
+      "uploadPassport": "Приложить копию паспорта",
+      "Comment": "Комментарий от Страховой компании",
+      "loadDocument": "Ранее приложенная копия согласия",
+      "loadPassport": "Ранее приложенная копия паспорта",
+      "consentStartActiveDate": "Дата начала действия согласия на мотивацию"
+    },
+    "buttons": {
+      "edit": "Редактировать",
+      "save": "Сохранить",
+      "cancel": "Отменить"
+    },
+    "popups": {
+      "auth": {
+        "title": "Для того чтобы участвовать в программе мотивации сотрудников, необходимо указать данные для зачисления средств, а также подписать согласие на участие в программе мотивации.",
+        "buttons": {
+          "hasInn": "Нет ИНН сотрудника",
+          "printConsent": "Распечатать документы",
+          "uploadFile": "Приложить файл",
+          "next": "Продолжить"
+        }
+      }
+    },
+    "errors": {
+      "emptyField": "Поле '%s' обязательно для заполнения"
+    }
+  }
+}

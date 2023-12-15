@@ -1,0 +1,9 @@
+export const EMPLOYEES_LIST_PAGE_KEY = 'employees-list';
+export const EMPLOYEES_EDIT_PAGE_KEY = 'employees-edit';
+export const EMPLOYEES_CREATE_PAGE_KEY = 'employees-create';
+export const ROLES_LIST_PAGE_KEY = 'roles-list';
+export const ROLES_EDIT_PAGE_KEY = 'roles-edit';
+export const LOGIN_PAGE_KEY = "login";
+export const PASSWORD_SETTINGS_PAGE_KEY = "password-settings";
+export const MOTIVATION_PAGE = 'motivation';
+export const MOTIVATION_REPORT_PAGE = 'motivation-report';

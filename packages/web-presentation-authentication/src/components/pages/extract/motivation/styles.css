@@ -1,0 +1,33 @@
+#extract .field{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#extract .errors {
+    margin-right: -200px;
+}
+
+#extract .field-value .field {
+    margin: -8px 0 0 0;
+}
+
+#extract .field-value .field:first-child {
+    margin: -8px 60px 0 0;
+}
+
+.inner-field{
+    width: 600px;
+}
+
+.inner-field .field-title {
+    width: 15px;
+}
+
+.extract-button .buttons {
+    padding: 10px 20px;
+    margin-bottom: 15px ;
+}
+
+#extract .section{
+    margin-left: 34px;
+}

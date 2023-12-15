@@ -1,0 +1,29 @@
+{
+  "name": "@efr/medservice-web-presentation-authentication-dev",
+  "version": "1.0.0-smed",
+  "description": "Презентационный слой \"СОЮЗМЕДСЕРВИСА\". Mодуль аутентифкации и авторизации. Тестовый пакет.",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@efr/medservice-docker": "15.0.0-smed",
+    "@efr/medservice-eslint-config-react": "15.0.0-smed",
+    "@efr/medservice-web-presentation-core": "15.0.0-smed",
+    "@efr/medservice-web-presentation-ui": "15.0.0-smed",
+    "@efr/medservice-web-presentation-utils-dev": "15.0.0-smed",
+    "@efr/medservice-web-presentation-utils-mock": "15.0.0-smed",
+    "@efr/medservice-web-presentation-utils-test": "15.0.0-smed"
+  },
+  "dependencies": {
+    "@efr/medservice-web-presentation-authentication": "^1.0.0-smed",
+    "@efr/medservice-web-presentation-authentication-mock": "^1.0.0-smed"
+  },
+  "scripts": {
+    "start-mock": "start-mock",
+    "start-app": "start-dev-app",
+    "build-app": "build-dev-app",
+    "lint": "run-liter",
+    "docker-push": "docker-push"
+  },
+  "publishConfig": {
+    "@efr:registry": "http://coral:18088/repository/efr-presentation-services/"
+  }
+}
